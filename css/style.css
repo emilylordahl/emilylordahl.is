@@ -1,0 +1,139 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav ul a:hover {
+    color: blue!important;
+    background-color: #efefef;
+}
+
+nav ul a.active {
+    color: salmon!important;
+}
+
+h1.header {
+  -webkit-transition: all 5s;
+  -moz-transition: all 5s;
+  -o-transition: all 5s;
+  -ms-transition: all 5s;
+  transition: all 5s;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: blue;
+}
+
+.fa-2x {
+  margin-right: 1rem;
+}
+
+.parallax-container {
+  min-height: 60vh;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+p .fa-button {
+  font-family: "Operator SSm A", "Operator SSm B";
+  font-style: normal;
+  font-weight: 200;
+}
+
+.fa-button .fa {
+  margin-left: .5rem;
+  font-size: 0.8625rem;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  transition: all .5s;
+}
+
+.fa-button .fa:hover {
+  margin-left: .75rem;
+}
+
+.behance .fa, .github .fa, .instagram .fa, .linkedin .fa, .twitter .fa {
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  transition: all .5s;
+}
+
+.behance .fa:hover {
+  color: #1769ff;
+}
+
+.github .fa:hover {
+  color: #333333;
+}
+
+.instagram .fa:hover {
+  color: #405de6;
+}
+
+.linkedin .fa:hover {
+  color: #0077b5;
+}
+
+.twitter .fa:hover {
+  color: #1da1f2;
+}
+
+
+h2, h3, h4, h5, h6 {
+  color: blue;
+  font-family: "Operator SSm A", "Operator SSm B";
+  font-style: normal;
+  font-weight: 200;
+}
+
+
+.left-align.light span {
+  border-bottom: 1px dotted blue;
+}
