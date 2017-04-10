@@ -97,7 +97,7 @@ p .fa-button {
   margin-left: .75rem;
 }
 
-.behance .fa, .github .fa, .instagram .fa, .linkedin .fa, .twitter .fa {
+.behance .fa, .github .fa, .instagram .fa, .linkedin .fa, .twitter .fa, .medium .fa {
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   -o-transition: all .5s;
@@ -123,6 +123,10 @@ p .fa-button {
 
 .twitter .fa:hover {
   color: #1da1f2;
+}
+
+.medium .fa:hover {
+  color: #00ab6c;
 }
 
 
