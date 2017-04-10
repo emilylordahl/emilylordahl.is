@@ -37,15 +37,13 @@
     var str = "emilylordahl.is";
     if (($("#contact").offset().top) < windowTop ) {
       $("nav ul a.nav-contact").addClass("active");
-      $logotxt.text(str + "/sharing");
+      // $logotxt.text(str + "/sharing");
     } else if (($("#about").offset().top) < windowTop ) {
      $("nav ul a.nav-about").addClass("active");
-     $logotxt.text(str + "/developing");
+    //  $logotxt.text(str + "/developing");
     } else if (($("#work").offset().top) < windowTop ) {
       $("nav ul a.nav-work").addClass("active");
-      $logotxt.text(str + "/designing");
-    } else {
-      $logotxt.text(str);
+      // $logotxt.text(str + "/designing");
     }
   });
 
