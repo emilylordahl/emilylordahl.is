@@ -35,16 +35,16 @@
     var windowTop = $(window).scrollTop() + $(".nav-wrapper").height();
     var $logotxt = $("#logo-container");
     var str = "emilylordahl.is";
-    if (($("#contact").offset().top) < windowTop ) {
-      $("nav ul a.nav-contact").addClass("active");
-      // $logotxt.text(str + "/sharing");
-    } else if (($("#about").offset().top) < windowTop ) {
-     $("nav ul a.nav-about").addClass("active");
-    //  $logotxt.text(str + "/developing");
-    } else if (($("#work").offset().top) < windowTop ) {
-      $("nav ul a.nav-work").addClass("active");
-      // $logotxt.text(str + "/designing");
-    }
+    // if (($("#contact").offset().top) < windowTop ) {
+    //   $("nav ul a.nav-contact").addClass("active");
+    //   // $logotxt.text(str + "/sharing");
+    // } else if (($("#about").offset().top) < windowTop ) {
+    //  $("nav ul a.nav-about").addClass("active");
+    // //  $logotxt.text(str + "/developing");
+    // } else if (($("#work").offset().top) < windowTop ) {
+    //   $("nav ul a.nav-work").addClass("active");
+    //   // $logotxt.text(str + "/designing");
+    // }
   });
 
   $("nav ul a").on("click", function(){
