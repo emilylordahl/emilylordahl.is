@@ -97,7 +97,7 @@ p .fa-button {
   margin-left: .75rem;
 }
 
-.behance .fa, .github .fa, .instagram .fa, .linkedin .fa, .twitter .fa {
+.behance .fa, .github .fa, .instagram .fa, .linkedin .fa, .twitter .fa, .medium .fa {
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   -o-transition: all .5s;
@@ -125,10 +125,14 @@ p .fa-button {
   color: #1da1f2;
 }
 
+.medium .fa:hover {
+  color: #00ab6c;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   color: blue;
-  font-family: "Operator SSm A", "Operator SSm B";
+  font-family: "Operator SSm A", "Operator SSm B", sans-serif;
   font-style: normal;
   font-weight: 200;
 }
